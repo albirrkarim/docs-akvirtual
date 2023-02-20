@@ -63,16 +63,16 @@ const config = {
         title: "Dokumentasi",
         logo: {
           alt: "akvirtual",
-          src: "img/udinus.png",
+          src: "img/logo.png",
           href: "https://akvirtual.id",
         },
         items: [
           // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: "https://github.com/albirrkarim/meta-dinus-docs",
-            label: "GitHub",
-            position: "right",
-          },
+          // {
+          //   href: "https://github.com/albirrkarim/meta-dinus-docs",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
