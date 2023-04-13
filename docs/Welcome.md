@@ -1,10 +1,8 @@
 ---
 sidebar_position: 1
-title: "Welcome"
+title: "Selamat datang di akvirtual.id"
 slug: /
 ---
-
-### Selamat datang di akvirtual.id
 
 Akvirtual.id adalah platform pameran virtual, cepat ringan, semua perangkat tanpa harus install software tambahan, cocok untuk pameran karya dengan data yang banyak.
 

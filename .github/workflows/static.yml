@@ -14,4 +14,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Composer config
-        run: echo "DONE"
+        run: |
+          mkdir dist
+          mv build/ dist/
+          cd dist/
+          mv build/ docs
+          echo "DONE"

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs_akvirtual=self.webpackChunkdocs_akvirtual||[]).push([[502],{9995:e=>{e.exports=JSON.parse('{"title":"Developer","slug":"/category/developer","permalink":"/docs/category/developer","navigation":{"previous":{"title":"Welcome","permalink":"/docs/"},"next":{"title":"API","permalink":"/docs/developer/api"}}}')}}]);
