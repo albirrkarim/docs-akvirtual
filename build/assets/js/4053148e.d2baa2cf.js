@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs_akvirtual=self.webpackChunkdocs_akvirtual||[]).push([[447],{5163:a=>{a.exports=JSON.parse('{"title":"Halaman","slug":"/category/halaman","permalink":"/docs/category/halaman","navigation":{"previous":{"title":"API","permalink":"/docs/developer/api"},"next":{"title":"Kebijakan Privasi","permalink":"/docs/pages/privacy-policy"}}}')}}]);

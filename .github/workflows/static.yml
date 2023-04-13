@@ -1,0 +1,17 @@
+name: Static CI/CD
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Composer config
+        run: echo "DONE"
