@@ -1,4 +1,24 @@
+# Deploy to production server
+
+Just build the static file
+```
+yarn build
+```
+
+Commit then push to master
+
+
+
+
+
+
+
+
+
+
+
 # Website
+
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 

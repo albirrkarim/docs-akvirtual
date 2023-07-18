@@ -1,5 +1,5 @@
 ---
-title: API
+title: Client API
 ---
 
 Berikut adalah dokumentasi API dari program akvirtual agar anda bisa mengatur program ini dari luar (secara programatic).
