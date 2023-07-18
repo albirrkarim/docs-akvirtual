@@ -36,11 +36,17 @@ etc...
 
 2. Click the `Create Exhibition` Button.
 
+![Create Exhibition](./assets/home_page.png)
+
 These button will create you example of 1 event, 1 room, 1 form, 4 Collections.
 
 3. See `the form` in [Form Menu](https://akvirtual.id/user/dashboard/forms) to get `form_uuid` token
 
+![Virtual Exhibition Integration Via API (form_uuid)](./assets/form_uuid.png)
+
 4. Go to [Integration Setting](https://akvirtual.id/user/dashboard/account/integration) to get `user_uuid` token.
+
+![Virtual Exhibition Integration Via API (form_uuid)](./assets/user_uuid.png)
 
 5. Read this docs and make HTTP request
 
