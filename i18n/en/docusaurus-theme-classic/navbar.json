@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "Dokumentasi",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "akvirtual",
+    "description": "The alt text of navbar logo"
+  }
+}

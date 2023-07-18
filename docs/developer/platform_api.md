@@ -14,7 +14,7 @@ Discord username: albirrkarim
 
 ## B. How it works
 
-![Overview](./assets/integration_overview.png)
+![Overview](./assets/Architecture.png)
 We can integrate our platform.
 
 The image / the video asset will be

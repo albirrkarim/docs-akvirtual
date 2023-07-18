@@ -13,7 +13,6 @@ const config = {
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -23,9 +22,22 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
+  // i18n: {
+  //   defaultLocale: "id",
+  //   locales: ["en","id"],
+  // },
+
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "id",
+    locales: ["id", "en"],
+    // localeConfigs: {
+    //   id: {
+    //     label: "Indonesian",
+    //   },
+    //   en: {
+    //     label: "English",
+    //   },
+    // },
   },
 
   presets: [
@@ -34,17 +46,17 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         sitemap: {
-          changefreq: 'weekly',
+          changefreq: "weekly",
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
         },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           routeBasePath: "/",
-          editUrl: "https://github.com/albirrkarim/meta-dinus-docs/tree/master",
+          // editUrl: "https://github.com/albirrkarim/meta-dinus-docs/tree/master",
         },
         // blog: {
         //   showReadingTime: true,
@@ -78,6 +90,11 @@ const config = {
           //   href: "https://github.com/albirrkarim/meta-dinus-docs",
           //   label: "GitHub",
           //   position: "right",
+          // },
+
+          // {
+          //   type: "localeDropdown",
+          //   position: "left",
           // },
         ],
       },
@@ -143,12 +160,29 @@ const config = {
         disableInDev: false,
       },
     ],
+    // [
+    //   require.resolve("@cmfcmf/docusaurus-search-local"),
+    //   {
+    //     // Options here
+    //     indexBlog: false,
+    //   },
+    // ],
+  ],
+
+  themes: [
+    // ... Your other themes.
     [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        // Options here
-        indexBlog: false,
-      },
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      // /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      }),
     ],
   ],
 };

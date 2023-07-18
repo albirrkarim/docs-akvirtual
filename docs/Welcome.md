@@ -1,7 +1,7 @@
 ---
 id: welcome
 sidebar_position: 1
-title: "Selamat datang di akvirtual.id"
+title: "Welcome"
 slug: /
 ---
 
