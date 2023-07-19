@@ -8,27 +8,19 @@ You can integrate your platform with our platform
 
 We have virtual exhibition platform that can integrated with your platform.
 
-Let me know what you needs, send me message via discord:
+**Let me know what you needs**, send me message via discord:
 
 Discord username: albirrkarim
 
 ## B. How it works
 
 ![Overview](./assets/Architecture.png)
-We can integrate our platform.
 
-The image / the video asset will be
-stored on your website. So the user will load the assets fast.
+[Open full image in new tab](./assets/Architecture.png)
 
-Because of the Server Location.
+The image / the video asset will be stored on your website. So the user will load the assets fast. Because of the Server Location.
 
-You just send the text about collection (art) detail like:
-
-Name:
-
-Description:
-
-etc...
+You just send the text about collection (art, scientific research, etc..) detail this way [Store new collection](#--store-new-collection)
 
 ## C. Steps
 
@@ -36,17 +28,33 @@ etc...
 
 2. Click the `Create Exhibition` Button.
 
+<details>
+  <summary>Show image</summary>
+
 ![Create Exhibition](./assets/home_page.png)
+
+</details>
 
 These button will create you example of 1 event, 1 room, 1 form, 4 Collections.
 
 3. See `the form` in [Form Menu](https://akvirtual.id/user/dashboard/forms) to get `form_uuid` token
 
+<details>
+  <summary>Show image</summary>
+
 ![Virtual Exhibition Integration Via API (form_uuid)](./assets/form_uuid.png)
+
+</details>
 
 4. Go to [Integration Setting](https://akvirtual.id/user/dashboard/account/integration) to get `user_uuid` token.
 
+<details>
+  <summary>Show image</summary>
+
+
 ![Virtual Exhibition Integration Via API (form_uuid)](./assets/user_uuid.png)
+
+</details>
 
 5. Read this docs and make HTTP request
 
